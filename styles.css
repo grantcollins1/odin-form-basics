@@ -1,0 +1,27 @@
+@font-face {
+  font-family: odinFont;
+  src: url(./Norse-Bold.otf);
+}
+
+.logo {
+  font-family: odinFont;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+}
+
+img {
+  width: 100%;
+  flex: 1;
+}
+
+.form-container {
+  flex: 1.5;
+}
