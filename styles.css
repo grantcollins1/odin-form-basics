@@ -19,9 +19,9 @@ body {
 
 .odin {
   position: absolute;
-  bottom: 598px;
+  bottom: 579px;
   background-color: rgba(0, 0, 0, 0.322);
-  width: 32.85%;
+  width: 33%;
   height: 150px;
   display: flex;
   justify-content: center;
@@ -64,7 +64,7 @@ img {
 }
 
 .outer-text {
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(250, 250, 250);
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -74,7 +74,7 @@ img {
 
 .lorem {
   margin-top: 50px;
-  margin-right: 100px;
+  margin-right: 400px;
   margin-bottom: 0;
 }
 
