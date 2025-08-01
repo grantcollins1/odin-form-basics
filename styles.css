@@ -3,8 +3,10 @@
   src: url(./Norse-Bold.otf);
 }
 
-.logo {
+.odin-text {
   font-family: odinFont;
+  color: white;
+  font-size: 70px;
 }
 
 body {
@@ -13,7 +15,24 @@ body {
 
 .image-container {
   flex: 3;
+}
+
+.odin {
+  position: absolute;
+  bottom: 598px;
+  background-color: rgba(0, 0, 0, 0.322);
+  width: 32.85%;
+  height: 150px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.odin-image {
+  height: 100px;
+  width: auto;
+  margin: 0;
 }
 
 img {
@@ -29,10 +48,47 @@ img {
 
 .outer-text {
   background-color: rgb(240, 240, 240);
-  flex: 1.2
+  flex: 1
 }
 
 .form-space {
   background-color: white;
   flex: 1;
+  padding-left: 75px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 1;
+}
+
+.text-input {
+  border-radius: 4px;
+  height: 25px;
+  border: 1px solid #E5E7EB;
+  width: 250px;
+}
+
+.text-input:invalid {
+  border: 1px solid red;
+}
+
+.text-input:focus {
+  outline: none;
+  border: 1px solid blue;
+  box-shadow: 2.5px 2.5px rgb(0, 0, 0, 0.2);
+}
+
+.text-input-container {
+  display: flex;
+  gap: 100px;
+}
+
+.text-input-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.labeled-input {
+  display: flex;
+  flex-direction: column;
 }
